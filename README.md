@@ -4,9 +4,10 @@
 
 ## Minify
 
-To build/minify the project you just have to run
+To build/minify the project you just have to run:
 
 ```
+cd build
 jake
 ```
 
@@ -23,5 +24,6 @@ npm install -g jake
 After installing jake you can install the dependent packages by running:
 
 ```
+cd build
 npm install
 ```

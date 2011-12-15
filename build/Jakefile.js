@@ -9,11 +9,11 @@ var header  =  "/* =============================================================
 
 var minify = require('jake-uglify').minify;
 
-task('default', ['jquery.flickrPhotostream.min.js']);
+task('default', ['../jquery.flickrPhotostream.min.js']);
 
 desc('General-purpose build containing most features');
-minify({'jquery.flickrPhotostream.min.js': [
-    'src/jquery.flickrPhotostream.js',
+minify({'../jquery.flickrPhotostream.min.js': [
+    '../src/jquery.flickrPhotostream.js',
 ]},{
   header: header
 });
