@@ -1,0 +1,8 @@
+{
+  "name": "jquery.flickPhotostream",
+  "version": "1.0.0",
+  "author": "Manuel van Rijn <manuel@manuelles.nl> (http://manuel.manuelles.nl)",
+  "devDependencies" : {
+    "jake-uglify" : ">=0.1"
+  }
+}
