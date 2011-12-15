@@ -25,7 +25,7 @@
 $.fn.flickrPhotostream.defaults = {
   userId: undefined,        // flickr userId.
   useSmallPhotos: true,     // use small images instead of medium sized images.
-  photoCount: 6,            // number of photo&#39;s to show.
+  photoCount: 6,            // number of photo's to show.
   callback: function() {}   // function that will be called after the latest tweet has been filled in.
 };
 </pre>
@@ -45,8 +45,8 @@ $.fn.flickrPhotostream.defaults = {
 
 <pre class="prettyprint">
 $(function() {
-  $( &#39;#example1 div&#39; ).flickrPhotostream({
-    userId: &#39;51313069@N02&#39;,
+  $( '#example1 div' ).flickrPhotostream({
+    userId: '51313069@N02'
   });
 });
 </pre>
@@ -67,10 +67,11 @@ $(function() {
 
 <pre class="prettyprint">
 $(function() {
-  $( &#39;#example2 ul&#39; ).flickrPhotostream({
-    userId: &#39;23737563@N00&#39;,
+  $( '#example2 ul' ).flickrPhotostream({
+    userId: '23737563@N00',
     photoCount: 10
   });
+
 });
 </pre>
 
@@ -90,8 +91,8 @@ $(function() {
 
 <pre class="prettyprint">
 $(function() {
-  $( &#39;#example3 ul&#39; ).flickrPhotostream({
-    userId: &#39;68329145@N05&#39;,
+  $( '#example3 ul' ).flickrPhotostream({
+    userId: '68329145@N05',
     useSmallPhotos: false,
     photoCount: 4
   });
@@ -122,14 +123,14 @@ $(function() {
 
 <pre class="prettyprint">
 $(function() {
-  $( &#39;#example4start&#39; ).click(function(e) {
+  $( '#example4start' ).click(function(e) {
     e.preventDefault();
-    $( &#39;#log&#39; ).text( &#39;start getting flickr photos&#39; );
-    $( &#39;#example4 ul&#39; ).flickrPhotostream({
-      userId: &#39;52386368@N00&#39;,
+    $( '#log' ).text( 'start getting flickr photos' );
+    $( '#example4 ul' ).flickrPhotostream({
+      userId: '52386368@N00',
       photoCount: 4,
       callback: function() {
-        $( &#39;#log&#39; ).text( &#39;finished!&#39; );
+        $( '#log' ).text( 'finished!' );
       }
     });
   });

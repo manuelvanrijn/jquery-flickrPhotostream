@@ -3,7 +3,7 @@ var header  =  "/* =============================================================
     header  += " * jquery.flickrPhotostream.js " + version + "\n";
     header  += " * Description: Retrieve's a list of images from the public photostream of a user\n";
     header  += " * Project: http://manuel.manuelles.nl/jquery-flickrPhotostream\n";
-    header  += " * Author: Manuel van Rijn <manuel@manuelles.nl> (http://manuel.manuelles.nl)\n";
+    header  += " * Author: Manuel van Rijn\n";
     header  += " * Released under the MIT License.\n";
     header  += " * =============================================================================== */";
 

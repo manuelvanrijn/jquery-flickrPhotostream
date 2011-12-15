@@ -1,7 +1,7 @@
 /* ==================================================================================
  * jquery.flickrPhotostream.js v0.1
  * Description: Retrieve's a list of images from the public photostream of a user
- * Project: https://github.com/manuelvanrijn/jquery-flickrPhotostream
+ * Project: http://manuel.manuelles.nl/jquery-flickrPhotostream
  * Author: Manuel van Rijn
  * Released under the MIT License.
  * =============================================================================== */
