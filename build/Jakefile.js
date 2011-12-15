@@ -1,4 +1,4 @@
-var version = 'v0.1';
+var version = 'v0.2';
 var header  =  "/* ==================================================================================\n";
     header  += " * jquery.flickrPhotostream.js " + version + "\n";
     header  += " * Description: Retrieve's a list of images from the public photostream of a user\n";

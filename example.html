@@ -23,10 +23,10 @@
           <h2>Plugin defaults</h2>
 <pre class="prettyprint">
 $.fn.flickrPhotostream.defaults = {
-  userId: undefined,        // flickr userId.
-  useSmallPhotos: true,     // use small images instead of medium sized images.
-  photoCount: 6,            // number of photo's to show.
-  callback: function() {}   // function that will be called after the latest tweet has been filled in.
+  userId: undefined,      // flickr userId.
+  useMediumSize: false,   // use medium sized images instead of small sized images.
+  photoCount: 6,          // number of photo's to show.
+  callback: function() {} // function that will be called after the latest tweet has been filled in.
 };
 </pre>
         </div>
@@ -93,7 +93,7 @@ $(function() {
 $(function() {
   $( '#example3 ul' ).flickrPhotostream({
     userId: '68329145@N05',
-    useSmallPhotos: false,
+    useMediumSize: true,
     photoCount: 4
   });
 });
@@ -175,7 +175,7 @@ $(function() {
 
   $( '#example3 ul' ).flickrPhotostream({
     userId: '68329145@N05',
-    useSmallPhotos: false,
+    useMediumSize: true,
     photoCount: 4,
     callback: function() {
       // add class to the ul so it's styled as a media-grid (see twitter bootstrap)
